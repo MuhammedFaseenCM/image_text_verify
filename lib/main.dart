@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:image_nudity/controller/provider_data.dart';
-import 'package:image_nudity/controller/text_provider.dart';
-import 'package:image_nudity/view/home_screen.dart';
-import 'package:image_nudity/view/widgets/const_colors.dart';
+import 'package:image_text_verify/controller/provider_data.dart';
+import 'package:image_text_verify/controller/text_provider.dart';
+import 'package:image_text_verify/view/home_screen.dart';
+import 'package:image_text_verify/view/widgets/const_colors.dart';
 import 'package:provider/provider.dart';
 
 void main() async {

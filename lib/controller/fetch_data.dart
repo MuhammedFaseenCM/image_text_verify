@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:image_nudity/model/image_model.dart';
+import 'package:image_text_verify/model/image_model.dart';
 
 Future<Verifyclass> fethData({required image}) async {
   var request = http.MultipartRequest(

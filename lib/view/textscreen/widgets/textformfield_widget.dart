@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:image_nudity/controller/debounce/debounce.dart';
-import 'package:image_nudity/controller/fetch_profanity.dart';
-import 'package:image_nudity/controller/text_provider.dart';
-import 'package:image_nudity/view/widgets/const_strings.dart';
+import 'package:image_text_verify/controller/debounce/debounce.dart';
+import 'package:image_text_verify/controller/fetch_profanity.dart';
+import 'package:image_text_verify/controller/text_provider.dart';
+import 'package:image_text_verify/view/widgets/const_strings.dart';
 import 'package:provider/provider.dart';
 
 final debouncer = Debouncer(milliseconds: 1 * 1000);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:image_nudity/view/widgets/const_colors.dart';
+import 'package:image_text_verify/view/widgets/const_colors.dart';
 
 class ButtonWidget extends StatelessWidget {
   final Widget child;

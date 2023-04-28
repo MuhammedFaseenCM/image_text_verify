@@ -1,6 +1,6 @@
 import 'package:http/http.dart' as http;
-import 'package:image_nudity/controller/text_provider.dart';
-import 'package:image_nudity/model/text_model.dart';
+import 'package:image_text_verify/controller/text_provider.dart';
+import 'package:image_text_verify/model/text_model.dart';
 import 'package:provider/provider.dart';
 
 Future<void> fetchProfanity({required text, required context}) async {

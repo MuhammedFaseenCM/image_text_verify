@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:image_nudity/view/image/image_screen.dart';
-import 'package:image_nudity/view/textscreen/text_screen.dart';
-import 'package:image_nudity/view/widgets/appbar_widget.dart';
-import 'package:image_nudity/view/widgets/button_widget.dart';
-import 'package:image_nudity/view/widgets/const_colors.dart';
-import 'package:image_nudity/view/widgets/const_strings.dart';
+import 'package:image_text_verify/view/image/image_screen.dart';
+import 'package:image_text_verify/view/textscreen/text_screen.dart';
+import 'package:image_text_verify/view/widgets/appbar_widget.dart';
+import 'package:image_text_verify/view/widgets/button_widget.dart';
+import 'package:image_text_verify/view/widgets/const_colors.dart';
+import 'package:image_text_verify/view/widgets/const_strings.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

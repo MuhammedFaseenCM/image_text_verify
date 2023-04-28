@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:image_nudity/controller/text_provider.dart';
-import 'package:image_nudity/view/textscreen/widgets/textformfield_widget.dart';
-import 'package:image_nudity/view/widgets/appbar_widget.dart';
-import 'package:image_nudity/view/widgets/const_colors.dart';
-import 'package:image_nudity/view/widgets/const_strings.dart';
+import 'package:image_text_verify/controller/text_provider.dart';
+import 'package:image_text_verify/view/textscreen/widgets/textformfield_widget.dart';
+import 'package:image_text_verify/view/widgets/appbar_widget.dart';
+import 'package:image_text_verify/view/widgets/const_colors.dart';
+import 'package:image_text_verify/view/widgets/const_strings.dart';
 import 'package:provider/provider.dart';
 
 class TextScreen extends StatelessWidget {

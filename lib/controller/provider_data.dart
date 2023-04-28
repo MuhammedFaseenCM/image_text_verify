@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:image_nudity/controller/fetch_data.dart';
-import 'package:image_nudity/model/image_model.dart';
+import 'package:image_text_verify/controller/fetch_data.dart';
+import 'package:image_text_verify/model/image_model.dart';
 import 'package:image_picker/image_picker.dart';
 
 class ImageDataProvider extends ChangeNotifier {
