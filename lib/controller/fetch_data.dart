@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:image_nudity/model/image_model.dart';
+import 'package:image_nudity/model/api.dart';
 
 Future<Verifyclass> fethData({required image}) async {
   var request = http.MultipartRequest(
@@ -12,7 +13,7 @@ Future<Verifyclass> fethData({required image}) async {
   request.files.add(await http.MultipartFile.fromPath('image', image));
 
   request.headers.addAll({
-    'X-RapidAPI-Key': 'b6f5ed5fa0msh7b6952959da336ep173d2ejsne90582df0c9e',
+    'X-RapidAPI-Key': rapidApi,
     'X-RapidAPI-Host':
         'nsfw-images-detection-and-classification.p.rapidapi.com',
     ...request.headers,
