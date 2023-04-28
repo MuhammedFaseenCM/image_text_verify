@@ -32,6 +32,9 @@ migrate_working_dir/
 .pub/
 /build/
 
+#ignore Files
+lib/model/api.dart
+
 # Symbolication related
 app.*.symbols
 
