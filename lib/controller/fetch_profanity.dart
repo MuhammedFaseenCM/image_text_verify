@@ -1,6 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'package:image_nudity/controller/text_provider.dart';
 import 'package:image_nudity/model/text_model.dart';
+import 'package:image_nudity/model/api.dart';
 import 'package:provider/provider.dart';
 
 Future<void> fetchProfanity({required text, required context}) async {
@@ -8,7 +9,7 @@ Future<void> fetchProfanity({required text, required context}) async {
   var url = Uri.parse('https://community-purgomalum.p.rapidapi.com/json');
   var headers = {
     'content-type': 'application/octet-stream',
-    'X-RapidAPI-Key': 'b6f5ed5fa0msh7b6952959da336ep173d2ejsne90582df0c9e',
+    'X-RapidAPI-Key': rapidApi,
     'X-RapidAPI-Host': 'community-purgomalum.p.rapidapi.com'
   };
   var params = {'text': '$text'};
